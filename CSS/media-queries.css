@@ -1,0 +1,79 @@
+@media only screen and (max-width: 768px) { 
+   
+    /* Main Navigation Wrapper */
+    .navigation-wrapper {   
+        width: 100%;    
+        height: 100%;
+        flex-direction: column;
+        padding: 15px 15px;
+        margin-top: 0px;
+    }
+
+    /*  Logo Image Navigation Wrapper */
+    .navigation-wrapper > .logo-place img {
+        height: 50px;
+    }
+
+    /*  Login & SignUp Navigation Wrapper */
+    .navigation-wrapper > .login-signup-wrapper {
+        width: 100%;
+        padding: 5px 5px;
+        margin-top: 15px;
+        display: flex;
+        align-items: center;
+    }
+
+    /*  Main Content */
+    .main-content-wrapper {
+        height: auto;
+        text-align: center;
+        font-size: 1em;
+        flex-direction: column;
+    }
+
+    /*  Logo Image Navigation Wrapper */
+    .main-content-wrapper > .left-content-wrapper {
+        width: 100%;
+        text-align: center;        
+    }
+
+    /*  Top Left Content */
+    .main-content-wrapper > .left-content-wrapper > .top-left-content {
+        width: 100%;
+        justify-content: left;
+        grid-template-columns: repeat(1, 1fr);
+        font-size: 0.62em;
+        padding: 0 50px;
+        display: flex;
+        text-align: center;
+        font-size: 80%;
+    }
+
+    /*  Bottom Content */
+    .main-content-wrapper > .left-content-wrapper > .bottom-content {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        font-size: 50%;
+    }
+
+    /*  Buttons Wrapper */
+    .main-content-wrapper > .left-content-wrapper > .buttons-wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 70%;
+        margin-bottom: 20px;
+    }
+
+    /* Image Right Content Wrapper */
+    .main-content-wrapper > .right-content-wrapper img {
+        width: 100%;
+        padding: 20px 10px;
+    }
+
+    /*  Bottom Information */
+    .bottom-info-wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
