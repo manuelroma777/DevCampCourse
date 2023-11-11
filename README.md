@@ -19,7 +19,8 @@ Carpeta html
   index.html
   
 Carpeta Images
-3 archivos
+4 archivos
   Hand_Emoji_Icon.png
+  Hand_Emoji_Icon.webp
   codepen-wordmark-white.png
   right-content-image.png
