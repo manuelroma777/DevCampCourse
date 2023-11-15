@@ -10,3 +10,5 @@ Carpeta CSS 5 archivos buttons.css common.css media-queries.css nav.css page-con
 
 Carpeta Images 3 archivos Hand_Emoji_Icon.png codepen-wordmark-white.png right-content-image.png
 
+2 example videos for appearance on different devices
+
